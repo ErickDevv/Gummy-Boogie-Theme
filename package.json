@@ -1,0 +1,32 @@
+{
+  "name": "gummy-boogie-theme",
+  "displayName": "Gummy Boogie Theme",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "erickdevv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErickDevv/Gummy-Boogie-Theme"
+  },
+  "keywords": [
+    "Gummy Boogie Theme",
+    "Dark Theme",
+    "Neon Theme",
+    "Theme"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gummy Boogie Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gummy Boogie Theme-color-theme.json"
+      }
+    ]
+  }
+}
