@@ -2,22 +2,24 @@
 	"name": "Gummy Boogie Theme",
 	"colors": {
 		"editor.background": "#00020d",
-		"editor.foreground": "#4cd9d4",
+		"editor.foreground": "#a2b3b2",
 		"activityBarBadge.background": "#00020d",
 		"activityBar.background": "#00020d",
 		"statusBar.background": "#00020d",
-		"editorLineNumber.foreground": "#C94CD9",
-		"editorLineNumber.activeForeground": "#D94C4C",
 		"editorCursor.foreground": "#4cd9d4",
 		"sideBar.background": "#00020d",
 		"sideBarSectionHeader.background": "#00020d",
 		"editorGroupHeader.tabsBackground": "#00020d",
 		"editorGroupHeader.noTabsBackground": "#00020d",
+
+		"list.hoverBackground": "#000312",
+		"list.activeSelectionBackground": "#000312",
+
+		"list.inactiveSelectionBackground": "#00020d",
+
 		"editorGroupHeader.border": "#00020d",
 		"tab.activeBackground": "#00020d",
-		"tab.activeForeground": "#db9fe3",
 		"tab.inactiveBackground": "#00020d",
-		"tab.inactiveForeground": "#db9fe3",
 		"tab.border": "#00020d",
 	},
 	"tokenColors": [
