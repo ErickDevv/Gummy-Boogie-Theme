@@ -2,7 +2,7 @@
   "name": "Gummy Boogie Theme",
   "colors": {
     "editorIndentGuide.activeBackground": "#ededed",
-    "editor.selectionBackground": "#31334088",
+    "editor.selectionBackground": "#ffffff1f",
     "editor.selectionHighlightBackground": "#000521",
 
     "editor.wordHighlightBackground": "#31334088",
