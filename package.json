@@ -2,7 +2,7 @@
   "name": "gummy-boogie-theme",
   "displayName": "Gummy Boogie Theme",
   "description": "",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "publisher": "erickdevv",
   "repository": {
     "type": "git",
@@ -20,12 +20,18 @@
   "categories": [
     "Themes"
   ],
+  "icon": "./img/icon.png",
   "contributes": {
     "themes": [
       {
         "label": "Gummy Boogie Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Gummy Boogie Theme-color-theme.json"
+      },
+      {
+        "label": "Gummy Boogie Theme (Relax)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gummy Boogie Theme (Relax)-color-theme.json"
       }
     ]
   }

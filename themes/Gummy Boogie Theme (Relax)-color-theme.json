@@ -1,37 +1,37 @@
 {
-  "name": "Gummy Boogie Theme",
+  "name": "Gummy Boogie Theme (Relax)",
   "colors": {
     "editorIndentGuide.activeBackground": "#ededed",
     "editor.selectionBackground": "#ffffff1f",
-    "editor.selectionHighlightBackground": "#00020d",
+    "editor.selectionHighlightBackground": "#13141b",
 
     "editor.wordHighlightBackground": "#31334088",
     "editor.wordHighlightStrongBackground": "#31334088",
 
     "editorBracketMatch.background": "#d94c76",
-    "editorBracketMatch.border": "#00020d",
-    "editorOverviewRuler.border": "#00020d",
+    "editorBracketMatch.border": "#13141b",
+    "editorOverviewRuler.border": "#13141b",
 
-    "editor.background": "#00020d",
+    "editor.background": "#13141b",
     "editor.foreground": "#ededed",
-    "activityBarBadge.background": "#00020d",
-    "activityBar.background": "#00020d",
-    "statusBar.background": "#00020d",
+    "activityBarBadge.background": "#13141b",
+    "activityBar.background": "#13141b",
+    "statusBar.background": "#13141b",
     "editorCursor.foreground": "#ffffff",
-    "sideBar.background": "#00020d",
-    "sideBarSectionHeader.background": "#00020d",
-    "editorGroupHeader.tabsBackground": "#00020d",
-    "editorGroupHeader.noTabsBackground": "#00020d",
+    "sideBar.background": "#13141b",
+    "sideBarSectionHeader.background": "#13141b",
+    "editorGroupHeader.tabsBackground": "#13141b",
+    "editorGroupHeader.noTabsBackground": "#13141b",
 
-    "list.hoverBackground": "#31334088",
-    "list.activeSelectionBackground": "#31334088",
+    "list.hoverBackground": "#ffffff1f",
+    "list.activeSelectionBackground": "#ffffff1f",
 
-    "list.inactiveSelectionBackground": "#00020d",
+    "list.inactiveSelectionBackground": "#13141b",
 
-    "editorGroupHeader.border": "#00020d",
-    "tab.activeBackground": "#00020d",
-    "tab.inactiveBackground": "#00020d",
-    "tab.border": "#00020d"
+    "editorGroupHeader.border": "#13141b",
+    "tab.activeBackground": "#13141b",
+    "tab.inactiveBackground": "#13141b",
+    "tab.border": "#13141b"
   },
   "tokenColors": [
     {
@@ -529,14 +529,14 @@
       "name": "Markdown - Raw Block Fenced",
       "scope": ["markup.raw.block.fenced.markdown"],
       "settings": {
-        "foreground": "#31334088"
+        "foreground": "#ffffff1f"
       }
     },
     {
       "name": "Markdown - Fenced Bode Block",
       "scope": ["punctuation.definition.fenced.markdown"],
       "settings": {
-        "foreground": "#31334088"
+        "foreground": "#ffffff1f"
       }
     },
     {
