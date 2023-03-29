@@ -116,7 +116,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#d94c76"
+        "foreground": "#89DDFF"
       }
     },
     {
