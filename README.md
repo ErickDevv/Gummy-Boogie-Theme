@@ -42,7 +42,7 @@ Note: To get the exact result of the images it is necessary to complement with o
 <h3 align="center">If you like it, please consider give it a star ⭐</h3>
 
 <h4 align="center">
-  <a href="URL del enlace">https://github.com/ErickDevv/Gummy-Boogie-Theme</a>
+  <a href="https://github.com/ErickDevv/Gummy-Boogie-Theme">https://github.com/ErickDevv/Gummy-Boogie-Theme</a>
 </h4>
 
 ---
