@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../public/Inconsolata-Regular.ttf") format("truetype");
+}
+
+.a {
+  background-image: url("../public/hao-wang-pVq6YhmDPtk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+}
+
+.text {
+  color: #89ddff;
+  line-height: 1;
+  font-size: 6.7px;
+  padding-top: 100px;
+  font-family: "Inconsolata";
+}
+
+.integrations {
+  line-height: 1;
+  font-size: 6.7px;
+  font-family: "Inconsolata";
+}
+
+.tech {
+  width: 60px;
+  height: 60px;
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 10px;
+    padding-top: 120px;
+  }
+  .integrations {
+    font-size: 7px;
+  }
+  .tech {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .text {
+    font-size: 15px;
+  }
+  .integrations {
+    font-size: 10px;
+  }
+  .tech {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000000;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .description {
+    font-size: 19px;
+  }
+  .logo {
+    height: 40px;
+  }
+  .github {
+    height: 40px;
+    width: 40px;
+  }
+}
