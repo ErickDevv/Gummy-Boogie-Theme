@@ -2,7 +2,7 @@
   "name": "Gummy Boogie Theme",
   "colors": {
     "editorIndentGuide.activeBackground": "#ededed",
-    "editor.selectionBackground": "#ffffff1f",
+    "editor.selectionBackground": "#ededed1f",
     "editor.selectionHighlightBackground": "#00020d",
 
     "editor.wordHighlightBackground": "#31334088",
@@ -17,7 +17,7 @@
     "activityBarBadge.background": "#00020d",
     "activityBar.background": "#00020d",
     "statusBar.background": "#00020d",
-    "editorCursor.foreground": "#ffffff",
+    "editorCursor.foreground": "#ededed",
     "sideBar.background": "#00020d",
     "sideBarSectionHeader.background": "#00020d",
     "editorGroupHeader.tabsBackground": "#00020d",
@@ -53,7 +53,7 @@
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ededed"
       }
     },
     {
