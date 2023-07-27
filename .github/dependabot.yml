@@ -4,3 +4,6 @@ updates:
     directory: "/web"
     schedule:
       interval: "weekly"
+      day: "thursday"
+      time: "11:59"
+      timezone: "America/Mexico_City"
