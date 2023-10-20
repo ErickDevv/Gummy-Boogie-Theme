@@ -8,7 +8,7 @@
     "preview": "cronos-preview --react"
   },
   "dependencies": {
-    "cronos-utils": "github:cronos-js/cronos-utils#0.0.6",
+    "cronos-utils": "github:cronos-js/cronos-utils#0.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
