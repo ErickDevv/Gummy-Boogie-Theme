@@ -10,3 +10,8 @@
 <div align="center">
 <img src="./images/colors.png" width="600px" alt="colors">
 </div>
+
+## Integrations
+
+### - [Visual Studio Code](./vscode/README.md)
+### - [Warp Terminal](./warp/README.md)
