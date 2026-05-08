@@ -1,14 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @font-face {
   font-family: "Inconsolata";
-  src: url("../public/Inconsolata-Regular.ttf") format("truetype");
+  src: url("/Inconsolata-Regular.ttf") format("truetype");
 }
 
 .a {
-  background-image: url("../public/hao-wang-pVq6YhmDPtk-unsplash.jpg");
+  background-image: url("/hao-wang-pVq6YhmDPtk-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

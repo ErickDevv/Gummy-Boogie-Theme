@@ -1,8 +1,11 @@
 import "./App.css";
 import Terminal from "./Terminal";
-import icon from "../public/icon.png";
+import Palette from "./Palette";
 import { SVGProps } from "react";
-import vscode from "../public/visual-studio-code.svg";
+
+const icon = "/icon.png";
+const vscode = "/visual-studio-code.svg";
+const warp = "/warp.png";
 
 const title = `
  ██████╗ ██╗   ██╗███╗   ███╗███╗   ███╗██╗   ██╗    ██████╗  ██████╗  ██████╗  ██████╗ ██╗███████╗
@@ -76,7 +79,7 @@ const App = () => {
         </div>
 
         <br></br>
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center gap-8 flex-wrap">
           <button
             className="tech"
             onClick={() =>
@@ -87,8 +90,26 @@ const App = () => {
           >
             <img src={vscode} alt="vscode" />
           </button>
+          <button
+            className="tech"
+            onClick={() =>
+              window.open(
+                "https://github.com/ErickDevv/Gummy-Boogie-Theme/blob/main/warp/Gummy-Boogie-Theme.yml"
+              )
+            }
+          >
+            <img src={warp} alt="warp" />
+          </button>
         </div>
       </div>
+
+      <div className="bg-[#00020d] flex items-center gap-4 px-8 py-6">
+        <div className="flex-1 h-px" style={{ background: "linear-gradient(to right, transparent, #d94c76, #c94cd9, transparent)" }} />
+        <span className="text-[#313340] font-mono text-xs tracking-[0.3em] uppercase select-none">palettes</span>
+        <div className="flex-1 h-px" style={{ background: "linear-gradient(to left, transparent, #d94c76, #c94cd9, transparent)" }} />
+      </div>
+
+      <Palette />
     </>
   );
 };
